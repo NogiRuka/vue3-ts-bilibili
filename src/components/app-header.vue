@@ -1,7 +1,7 @@
 <template>
   <header class="app-header">
     <!-- logo -->
-    <a class="logo" href="#">
+    <a class="logo " href="/">
       <i class="iconfont Navbar_logo"></i>
     </a>
     <!-- 搜索 -->
@@ -23,26 +23,33 @@
   align-items: center;
   padding: 2vw 3vw;
   background-color: #fff;
+
   .logo {
     flex: 1;
+
     .Navbar_logo {
       color: #fb7299;
       font-size: 7.46667vw;
     }
   }
+
   .search {
     padding: 0 2vw;
+
     .ic_search_tab {
       color: #ccc;
       font-size: 5.86667vw;
     }
   }
+
   .face {
     padding: 0 4vw;
+
     img {
       width: 6.4vw;
     }
   }
+
   .down-app {
     font-size: 3vw;
     display: flex;
@@ -53,5 +60,4 @@
     border-radius: 5px;
     padding: 5px 10px;
   }
-}
-</style>
+}</style>
